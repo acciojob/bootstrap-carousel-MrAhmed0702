@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Write your code here -->
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+
+    <div class="carousel-item first-slide">
+      <!-- not active -->
+    </div>
+
+    <div class="carousel-item second-slide">
+      <!-- not active -->
+    </div>
+
+    <div class="carousel-item third-slide active">
+      <!-- ✅ This is the active slide -->
+    </div>
+
+    <div class="carousel-item fourth-slide">
+      <!-- not active -->
+    </div>
+
+    <div class="carousel-item fifth-slide">
+      <!-- not active -->
+    </div>
+  </div>
+
+  <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+
+  <a class="carousel-control right carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </body>
  
 </html>

@@ -1,1 +1,6 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+.first-slide { background-color: red; height: 300px; }
+.second-slide { background-color: orange; height: 300px; }
+.third-slide { background-color: yellow; height: 300px; }
+.fourth-slide { background-color: green; height: 300px; }
+.fifth-slide { background-color: blue; height: 300px; }
